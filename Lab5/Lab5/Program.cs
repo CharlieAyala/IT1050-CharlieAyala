@@ -43,6 +43,30 @@ namespace Program
         }
     }
 
+    class Dog
+    {
+
+        public string Name { get; set; }
+
+        public string bark;
+        public void bark()
+        {
+            Console.WriteLine("{0} is Barking...", name);
+            Console.ReadLine();
+        }
+
+
+
+
+        public string doTrick;
+        public void doTrick(trickName trickName)
+        {
+            Console.WriteLine("{0} is so smart! {0} is doing a(n) {1}", name, trickName);
+            Console.ReadLine();
+
+        }
+
+    }
 
 }
 
